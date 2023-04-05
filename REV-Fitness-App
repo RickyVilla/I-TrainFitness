@@ -2,11 +2,18 @@
 
 \* 
 -----Team Project README:
-----Ricardo E. Villavicencio - Paultep Wisuskeow
+----Ricardo E. Villavicencio - Paultep Wisuskeow - Sky Mansfield
 
 --REV-Fitness Website.
 
 -Design a Fitness Buddy that can serve clients as an Accountability Partner throughout their workouts. Use our platform designed to work a system, or adjust to pick and choose their own workout routines.
 
-*App will be a Full MERN-Stack App with a user database and 
+*App will be a Full MERN-Stack App with a user database and build from Back-end up.
+-create simple login feature. register/login.
+-create Back-end route.js and server.js
+*server needs routes, controllers, models(schema)-build structure for data.
+-attach front-end to existing Back-end data structure.
 \*
+
+\* RVE: Pseudo- code needed prerequisites. Casing, Name conventions, structure, know-how and areas of skills. 
+-Download all needed packages. Identify needed file structure. start to build Back-end files(server, routes, models/schema). \*

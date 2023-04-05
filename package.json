@@ -1,0 +1,32 @@
+{
+  "name": "rev-fitnessapp",
+  "version": "1.0.0",
+  "description": "Fitness Platform. Full CRUD Application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickyVilla/REV-Fitness.git"
+  },
+  "keywords": [
+    "fitness",
+    "exercise",
+    "workout",
+    "workouts",
+    "cardio"
+  ],
+  "author": "Ricardo Estrada Villavicencio, Paultep Wisuskeow, Sky Mansfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RickyVilla/REV-Fitness/issues"
+  },
+  "homepage": "https://github.com/RickyVilla/REV-Fitness#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}
