@@ -18,11 +18,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 /**
- * @see app.use(cors());
  * below block of code is used to setup delivery static files of client build
  * this would be used in production runtime only
- * which prevents the need for CORS since the whole app could be hosted in a single cloud service
+ * which prevents the need for CORS since the whole app could be hosted in a single cloud service the origin
  * also makes it a true full-stack application in production. 
+ * @see https://levelup.gitconnected.com/how-to-render-react-app-using-express-server-in-node-js-a428ec4dfe2b
  */
 if (config.NODE_ENV === 'production') { 
     app.use(express.static('Client/build'));
